@@ -3,7 +3,7 @@
   <head>
     <title>Meeting Minutes</title>
     <meta charset="utf-8" />
-    <link ref="icon" href="favicon.ico">
+    <link ref="icon" href="./favicon.ico">
   </head>
   <body>
       <nav>
@@ -41,10 +41,10 @@
           <div>
               <h3>Some examples</h3>
               <span>
-                  <img width="500px" height="400" src="../images/amazon.jpg" alt="Amazon website">
-                  <img width="500px" height="400" src="../images/instagram.png" alt="Instragram website">
-                  <img width="500px" height="400" src="../images/linkedin.jpg" alt="Linkedin website">
-                  <img width="500px" height="400" src="../images/Netflix.jpg" alt="Netflix website">
+                  <img width="500px" height="400" src="./images/amazon.jpg" alt="Amazon website">
+                  <img width="500px" height="400" src="./images/instagram.png" alt="Instragram website">
+                  <img width="500px" height="400" src="./images/linkedin.jpg" alt="Linkedin website">
+                  <img width="500px" height="400" src="./images/Netflix.jpg" alt="Netflix website">
               </span>
             </div>
         </section>
@@ -86,26 +86,69 @@
                   <label>UCSD email: </label>
                   <input type="text">
               </div>
+              <div>
+                <label>Choose your team</label>
+                <select id="team-list">
+                  <option value="">Please choose a team</option>
+                  <option value="main page">Main page</option>
+                  <option value="user page">User page</option> 
+                  <option value="login page">Login page</option>
+                </select>
+              </div>
               <fieldset>
-                  <legend>Choose your team:</legend>
+                  <legend>Available Time</legend>
                 <div>
                     <input type="checkbox">
-                    <label>User page</label>
+                    <label>Monday</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>login page</label>
+                    <label>Tuesday</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>design</label>
+                    <label>Wednesday</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Thursday</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Friday</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Saturday</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Sunday</label>
                 </div>
               </fieldset>
+              <div>
+                <label for="tick">Today's Happiness</label>
+                <input type="range" list="tickmarks" min="0" max="100" id="tick" name="tick">
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="10"></option>
+                    <option value="20"></option>
+                    <option value="30"></option>
+                    <option value="40"></option>
+                    <option value="50"></option>
+                    <option value="60"></option>
+                    <option value="70"></option>
+                    <option value="80"></option>
+                    <option value="90"></option>
+                    <option value="100"></option>
+                </datalist>
+              </div>
               <button>Submit</button>
           </form>
       </div>
+      <hr/>
       <footer>
-
+        All rights reserved by Wing
       </footer>
   </body>
 </html>
