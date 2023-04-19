@@ -7,10 +7,4 @@ assignees: ''
 
 ---
 
-Body: 
- - type: textarea
-    id: what-happened
-    attributes:
-      label: What are some new features you want to add?
-    validations:
-      required: true
+### specifications
