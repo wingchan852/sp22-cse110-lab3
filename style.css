@@ -10,7 +10,7 @@
 }
 
 
-#meeting {
+h1 {
     text-align: center;
     color: blue;
 }
@@ -29,4 +29,38 @@
 
 .examples {
     grid-column: 2;
+}
+
+.box {
+    border-style: inset;
+    border-color: rgb(73, 10, 10) #32a1ce;
+    border-width: 1em;
+    border-radius: 40px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.title {
+    color: hsl(19, 100%, 12%);
+    text-align: center;
+    font-family:monospace;
+}
+
+* {
+    font-family:monospace;
+}
+
+.info {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
