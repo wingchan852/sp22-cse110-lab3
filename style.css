@@ -1,0 +1,32 @@
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.info > div {
+    flex: 1;
+}
+
+
+#meeting {
+    text-align: center;
+    color: blue;
+}
+
+.lastweek {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.topic {
+    grid-row: 1;
+}
+.idea {
+    grid-column: 1;
+}
+
+.examples {
+    grid-column: 2;
+}

@@ -4,22 +4,29 @@
     <title>Meeting Minutes</title>
     <meta charset="utf-8"/>
     <link rel="icon" href="./favicon.ico">
+    <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
       <nav>
             <a href="#">Today Meeting</a>
         </nav>
       <header>
-          <h1>TEAM MEETING MINUTES</h1>
+          <h1 id="title">TEAM MEETING MINUTES</h1>
       </header>
       <main>
-        <div>
+        <div class="info">
+          <div>
             <label>Date:</label>
             <input type="date">
+          </div>
+          <div>
             <p>Participants:</p>
             <input type="text">
+          </div>
+          <div>
             <p>Absent:</p>
             <input type="text">
+          </div>
         </div>
         <hr/>
         <section>
@@ -27,9 +34,9 @@
           <textarea rows="4" cols="100"> Picking up the topic from last week. We need to come to an agreement of what our group want to do. We also need to decide the role of each person and select a leader. We are going to have 3 groups: main page, user page, and the login page. Each group will also need to select their own leader.</textarea>
         </section>
         <!--Things from last week-->
-        <section>
-          <h2>Things we have went thorugh from last week</h2>
-          <div>
+        <div class="lastweek">
+          <h2 class="topic">Things we have went thorugh from last week</h2>
+          <div class="idea">
               <h3>Ideas</h3>
               <ul>
                   <li>commerce, e-shop</li>
@@ -38,7 +45,7 @@
                   <li>streaming platform</li>
               </ul>
           </div>
-          <div>
+          <div class="examples">
               <h3>Some examples</h3>
               <span>
                   <img width="500" height="400" src="./images/amazon.jpg" alt="Amazon website">
@@ -47,7 +54,7 @@
                   <img width="500" height="400" src="./images/Netflix.jpg" alt="Netflix website">
               </span>
             </div>
-        </section>
+        </div>
         <hr/>
         <section>
             <h3>Discussion</h3>
