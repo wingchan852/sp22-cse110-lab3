@@ -23,11 +23,11 @@
           </div>
           <div>
             <p>Participants:</p>
-            <input type="text">
+            <input type="text" class="inputBox">
           </div>
           <div>
             <p>Absent:</p>
-            <input type="text">
+            <input type="text" class="inputBox">
           </div>
         </div>
         <hr/>
@@ -43,13 +43,13 @@
               <ul>
                   <li>commerce, e-shop</li>
                   <li>social media</li>
-                  <li>game</li>
+                  <li id="game">game</li>
                   <li>streaming platform</li>
               </ul>
           </div>
           <div class="examples">
               <h3>Some examples</h3>
-              <span>
+              <span 
                   <img width="500" height="400" src="./images/amazon.jpg" alt="Amazon website">
                   <img width="500" height="400" src="./images/instagram.png" alt="Instragram website">
                   <img width="500" height="400" src="./images/linkedin.jpg" alt="Linkedin website">
@@ -61,14 +61,23 @@
         <section class="box">
             <h3 class="title">Discussion</h3>
             <div>
-                <p> Main page <br/>
+              <div class="container">
+                Main page <br/>
                 Components: Navbar, SideBar, a searching bar <br/>
                 color: using light and warm colors <br/>
+              </div>
+              <div class="container">
                 Login page <br/>
                 Elements: username, password, icon <br/>
                 <strong>login method??</strong> <br/>
-                User page <br/>
+              </div>
+              <div class="container">
+                <p>
+                 User page <br/>
                 <i>discuss in next meeting...</i> <br/><br/>
+                </p>
+              </div>
+              <p>
                 <em>some useful resources</em> <br/>
                 <a href="https://developer.mozilla.org/">Mdn</a>
                 <a href="https://www.w3schools.com/">W3Schools</a>
@@ -158,17 +167,21 @@
           </form>
       </div>
       <hr/>
-      <section >
+      <section>
         <h2>Reminder!!!</h2>
-        <p>The next meeting will be hold on CSE230</p>
-        <video width="400" height="500" controls Autoplay=autoplay>
-            <source src="./videos/cse230.MOV" type="video/mp4">
-        </video>
-        <p>Today's recording</p>
-        <audio
-            controls
-            src="./audios/audios.m4a">
-        </audio>
+        <div>
+            <p>The next meeting will be hold on CSE230</p>
+            <video width="400" height="500" controls Autoplay=autoplay>
+              <source src="./videos/cse230.MOV" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <p>Today's recording</p>
+            <audio
+              controls
+              src="./audios/audios.m4a">
+            </audio>
+        </div>
       </section>
       <hr/>
       <footer>

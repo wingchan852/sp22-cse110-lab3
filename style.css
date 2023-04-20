@@ -1,5 +1,5 @@
 .info {
-    display: flex;
+    display:flex;
     align-items: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -10,9 +10,9 @@
 }
 
 
-h1 {
-    text-align: center;
+h1, h3 {
     color: blue;
+    text-align: center;
 }
 
 .lastweek {
@@ -24,11 +24,15 @@ h1 {
     grid-row: 1;
 }
 .idea {
-    grid-column: 1;
+    grid-column: 2;
+    grid-row: 2;
+    position: absolute;
+    right: 20%;
 }
 
 .examples {
-    grid-column: 2;
+    /* grid-column: 2; */
+    grid-row: 3;
 }
 
 .box {
@@ -38,6 +42,7 @@ h1 {
     border-radius: 40px;
     margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
+    background-color: #a8d9ec;
 }
 
 .title {
@@ -68,4 +73,44 @@ footer {
     margin:auto;
     padding: auto;
     font-family:"Sofia", sans-serif;
+    display: block;
+}
+
+#game {
+    text-decoration: line-through;
+}
+
+.idea ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.inputBox {
+    height: 200px;
+    width: 400px;
+    margin: auto;
+}
+
+textarea {
+    max-width: 700px;
+    min-width: 500px;
+}
+
+.container {
+    display: inline-block;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+nav {
+    position: fixed;
+    right: 10%;
+}
+
+button:hover {
+  color: rgb(255, 0, 0);
+}
+
+button:active {
+  box-shadow: 2px 2px 5px #fcb64d;
 }
