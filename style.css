@@ -120,9 +120,9 @@ button:active {
   box-shadow: 2q 2q 5q #fcb64d;
 }
 
-@media (min-width:320px) {
+@media only screen and (min-width:320px) and (max-device-width : 480px) {
     .info {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
     }
 }
