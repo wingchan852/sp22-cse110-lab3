@@ -126,3 +126,20 @@ button:active {
         flex-direction: column;
     }
 }
+
+[href*="https"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p ~ span {
+    color:rgb(36, 55, 167)
+}
+
+li:first-child + li {
+    text-decoration: line-through;
+}
+
+h2.title {
+    text-align: left;
+    font-size: 40px;
+}
