@@ -119,3 +119,10 @@ button:hover {
 button:active {
   box-shadow: 2q 2q 5q #fcb64d;
 }
+
+@media (min-width:320px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+}
