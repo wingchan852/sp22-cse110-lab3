@@ -15,6 +15,10 @@ h1, h3 {
     text-align: center;
 }
 
+h1 {
+    font-size: 6em;
+}
+
 .lastweek {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,7 +38,7 @@ h1, h3 {
     /* grid-column: 2; */
     grid-row: 3;
 }
-
+/* discussion board */
 .box {
     border-style: inset;
     border-color: rgb(73, 10, 10) #32a1ce;
@@ -44,10 +48,11 @@ h1, h3 {
     padding: 10px 10px 10px 10px;
     background-color: #a8d9ec;
 }
-
+/* discussion title */
 .title {
     color: hsl(19, 100%, 12%);
     text-align: center;
+    font-size: 2rem;
 }
 
 * {
@@ -88,7 +93,7 @@ footer {
 .inputBox {
     height: 200px;
     width: 400px;
-    margin: auto;
+    margin: 5mm 5mm;
 }
 
 textarea {
@@ -104,7 +109,7 @@ textarea {
 
 nav {
     position: fixed;
-    right: 10%;
+    right: 10vw;
 }
 
 button:hover {
@@ -112,5 +117,5 @@ button:hover {
 }
 
 button:active {
-  box-shadow: 2px 2px 5px #fcb64d;
+  box-shadow: 2q 2q 5q #fcb64d;
 }
